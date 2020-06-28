@@ -26,7 +26,7 @@
 3.  Mother of child who is learning about space
 
 ## Real-life Stakeholder:
-Jimmy (getting name)
+Jimmy Acevedo    (Intern coordinator @ NASA)
 
 Here are more a in-depth profile of our [Stakeholder Personas]().
 
