@@ -21,9 +21,9 @@
   
   
 ## Stakeholder type examples:
-Type 1: Intern coordinator at NASA
-Type 2: Students who are interested in space
-Type 3: Mother of child who is learning about space
+* __Type 1:__ Intern coordinator at NASA
+* __Type 2:__ Students who are interested in space
+* __Type 3:__ Mother of child who is learning about space
 ## Real-life Stakeholder:
 
 
