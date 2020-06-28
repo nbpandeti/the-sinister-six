@@ -12,7 +12,8 @@
 ## Product Iteration (Summer 2020)
 * __Name:__ StellAR
 * __Far Vision:__ Create the next space generation by bringing outerspace closer to earth.
-* __Product Iteration Near Vision:__ Space at the tip of your fingers
+* __Product Iteration Near Vision:__ Space at the tip of your fingers.
+* __Product Description:__ Interactive Spactial Platform that makes interstellar space easier to reach by providing education about space exploration through fun, and accessible, AR application
 * __Key Architecture:__ 
   * Infrastructure: 
   * Languages: 
