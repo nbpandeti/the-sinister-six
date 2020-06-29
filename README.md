@@ -23,14 +23,26 @@
   
   
 ## Stakeholder type examples:
-1.  Intern coordinator @ NASA
-2.  Student interested in space
+1.  Senior Educational Outreach and STEM Engagement Specialist @ NASA
+2.  Masters Student studying Unmanned Systems Technology
 3.  Mother of child who is learning about space
 
 ## Real-life Stakeholder:
-Jimmy Acevedo    (Intern coordinator @ NASA)
+Jamarius Reid    (Masters Student studying Unmanned Systems Technology)
 
-Here are more a in-depth profile of our [Stakeholder Personas]().
+Here are more a in-depth profile of our Stakeholder.
+User Persona for Real Stakeholder | Details
+--- | ---
+Stake Holder name | Jamarius Reid  ![Jamarium Reid](https://octodex.github.com/images/yaktocat.png)
+Age | 25
+Education | Embry-Riddle Aeronautical University, Master of Science in Unmanned Systems, Space Operations
+Skill Level in Mobile Application Development | Intermediate
+Experience in Software Engineering | Beginner
+Knowledge level in Astronomy | Intermediate
+Motivation/Goals for Product | My motivation to share this amongst my friend would be to gauge interests and also educate them on topics that they have interests in (i.e. make it more accessible, encourage more people to apply while sharing space topics).
+Inconveniences | Not have an immediate resource to reference in conversation and(or) fact check my interpretation of space events.
+Features | 1. When launching the app for the 1st time the user can select topics (i.e. genres) that interest them so that relevant information can populate their feed.<br/>2. The accessibility to search prevalent information. Could double as an encyclopedia for NASA or Space exploration and initiatives.
+Personality traits | Extroverted, Intuitive, Feeling, and Judging 
 
 
 ## Backlog (Trello Board):
