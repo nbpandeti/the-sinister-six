@@ -33,7 +33,7 @@ Jamarius Reid    (Masters Student studying Unmanned Systems Technology)
 Here are more a in-depth profile of our Stakeholder.
 User Persona for Real Stakeholder | Details
 --- | ---
-Stake Holder name | Jamarius Reid  ![Jamarius Reid](https://drive.google.com/uc?export=view&id=1SFRPit7HXMZ4yFgkLr7kBp9acW5zFCUc)
+Stake Holder name | Jamarius Reid  ![Jamarius Reid](JamariusReid.jpeg)
 Age | 25
 Education | Embry-Riddle Aeronautical University, Master of Science in Unmanned Systems, Space Operations
 Skill Level in Mobile Application Development | Intermediate
