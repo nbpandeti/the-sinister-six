@@ -46,9 +46,9 @@ Personality traits | Extroverted, Intuitive, Feeling, and Judging
 
 Jimmy Acevedo    (Senior Educational Outreach and STEM Engagement Specialist @ NASA)
 
-User Persona for Real Stakeholder | Details
+User Persona for Real Stakeholder #2 | Details
 --- | ---
-Stake Holder name | Jimmy Acevedo ![Jimmy Acevedo](https://drive.google.com/file/d/1TB1d3gBg4XDk_vyw2WlwotxBpL9vfozw/view?usp=sharing)
+Stake Holder name | Jimmy Acevedo ![Jimmy Acevedo](https://ibb.co/jMKXf4v)
 Age | 35
 Role | Senior Educational Outreach and STEM Engagement Specialist @ NASA
 Skill Level in Mobile Application Development | Low
