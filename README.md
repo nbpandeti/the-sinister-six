@@ -48,7 +48,7 @@ Jimmy Acevedo    (Senior Educational Outreach and STEM Engagement Specialist @ N
 
 User Persona for Real Stakeholder #2 | Details
 --- | ---
-Stake Holder name | Jimmy Acevedo ![Jimmy Acevedo](https://ibb.co/jMKXf4v)
+Stake Holder name | Jimmy Acevedo ![Jimmy Acevedo](IMG_7756.JPG)
 Age | 35
 Role | Senior Educational Outreach and STEM Engagement Specialist @ NASA
 Skill Level in Mobile Application Development | Low
