@@ -27,7 +27,7 @@
 2.  Masters Student studying Unmanned Systems Technology
 3.  Mother of child who is learning about space
 
-## Real-life Stakeholder:
+## Real-life Stakeholders:
 Jamarius Reid    (Masters Student studying Unmanned Systems Technology)
 
 Here are more a in-depth profile of our Stakeholder.
@@ -43,6 +43,20 @@ Motivation/Goals for Product | My motivation to share this amongst my friend wou
 Inconveniences | Not have an immediate resource to reference in conversation and(or) fact check my interpretation of space events.
 Features | 1. When launching the app for the 1st time the user can select topics (i.e. genres) that interest them so that relevant information can populate their feed.<br/>2. The accessibility to search prevalent information. Could double as an encyclopedia for NASA or Space exploration and initiatives.
 Personality traits | Extroverted, Intuitive, Feeling, and Judging 
+
+Jimmy Acevedo    (Senior Educational Outreach and STEM Engagement Specialist @ NASA)
+
+User Persona for Real Stakeholder | Details
+--- | ---
+Stake Holder name | Jimmy Acevedo ![Jimmy Acevedo](https://drive.google.com/file/d/1TB1d3gBg4XDk_vyw2WlwotxBpL9vfozw/view?usp=sharing)
+Age | 35
+Role | Senior Educational Outreach and STEM Engagement Specialist @ NASA
+Skill Level in Mobile Application Development | Low
+Knowledge level in Astronomy | Intermediate/High
+Motivation/Goals for Product |  Increased accessibility and excitement with space exploration
+Inconveniences | Lack of usable AR interfaces (Snapchat etc. have high barriers to entry)
+Features | 1. Easy content-management system for pushing out fresh information. 2. ‘Hot topics’ temporary way to feature content relevant to current events, e.g. optical communications facts near LCRD launch.
+Personality traits | Resourceful, Creative, Empathetic, Impulsive, Playful
 
 ## Definition of Ready:
 1. Item has a title, description, user story, is estimated, has a defined acceptance criteria  
