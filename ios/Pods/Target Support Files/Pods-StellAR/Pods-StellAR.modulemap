@@ -1,0 +1,6 @@
+module Pods_StellAR {
+  umbrella header "Pods-StellAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
