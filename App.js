@@ -62,9 +62,11 @@ function HomeScreen({ navigation }) {
             <Image style= { styles.backgroundImage }/>
             <View>
             <TouchableOpacity
+                testID ="homeScreenLogoButton"
                 activeOpacity={0.5}
                 onPress={() => navigation.navigate("StellARMenu")}>
                 <Image
+                    testID ="homeScreenLogoButton"
                     source={require('./logofinal.png')}
                     resizeMode='contain'
                     style= {{maxWidth: (width*.65)}}/>
@@ -77,8 +79,8 @@ function HomeScreen({ navigation }) {
 function StellARMenuPage({ navigation }) {
     return (
             <View style={{justifyContent: "center", alignItems: "center" }}>
-                <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld')}>
+                <Image testID ="stellarMenuPageGasGiantImage" source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
+                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld')}>
                         <Image
                         source={require('./gasgiant.png')}
                         style={styles.ImageIconStyle}
@@ -97,13 +99,14 @@ function ARWorldScreen({ navigation }) {
     return (
         <View >
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity activeOpacity={0.5} onPress={() => navigation.navigate('AR')}>
+                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('AR')}>
                     <Image
+                        testID ="homeScreenLogoButton"
                         source={require('./space1.jpg')}
                         style={{height: '90%',
                         width: 500, top:125}}
                         />
-                    <Text style= {StyleSheet.titlepage}>A star... lol get it? </Text>
+                    <Text testID ="homeScreenLogoButton" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
                     </TouchableOpacity>
     
                 </View>
@@ -113,8 +116,9 @@ function AR({ navigation }) {
     return (
             <View style={{justifyContent: "center", alignItems: "center" }}>
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld2')}>
+                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld2')}>
                         <Image
+                        testID ="homeScreenLogoButton"
                         source={require('./neworld.png')}
                         style={styles.ImageIconStyle}
                         />
@@ -129,13 +133,14 @@ function ARWorldScreen2({ navigation }) {
     return (
         <View >
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity activeOpacity={0.5} onPress={() => navigation.navigate('ContactUs')}>
+                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('ContactUs')}>
                     <Image
+                        testID ="homeScreenLogoButton"
                         source={require('./space1.jpg')}
                         style={{height: '90%',
                         width: 500, top:125}}
                         />
-                    <Text style= {StyleSheet.titlepage}>A star... lol get it? </Text>
+                    <Text testID ="homeScreenLogoButton" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
                     </TouchableOpacity>
     
                 </View>
