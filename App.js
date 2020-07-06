@@ -99,9 +99,9 @@ function ARWorldScreen({ navigation }) {
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
                     <TouchableOpacity activeOpacity={0.5} onPress={() => navigation.navigate('AR')}>
                     <Image
-                        source={require('./bad.jpg')}
+                        source={require('./space1.jpg')}
                         style={{height: '90%',
-                        width: 500,}}
+                        width: 500, top:125}}
                         />
                     <Text style= {StyleSheet.titlepage}>A star... lol get it? </Text>
                     </TouchableOpacity>
@@ -118,11 +118,7 @@ function AR({ navigation }) {
                         source={require('./neworld.png')}
                         style={styles.ImageIconStyle}
                         />
-                        <Image
-                        source={require('./gianttext.png')}
-                        resizeMode='contain'
-                        style= {{maxWidth: (width*.65), maxHeight: (height*.15),  position: 'absolute', top:500, right:100}}
-                        />
+                       
                     </TouchableOpacity>
     
                 </View>
@@ -135,9 +131,9 @@ function ARWorldScreen2({ navigation }) {
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
                     <TouchableOpacity activeOpacity={0.5} onPress={() => navigation.navigate('ContactUs')}>
                     <Image
-                        source={require('./bad.jpg')}
+                        source={require('./space1.jpg')}
                         style={{height: '90%',
-                        width: 500,}}
+                        width: 500, top:125}}
                         />
                     <Text style= {StyleSheet.titlepage}>A star... lol get it? </Text>
                     </TouchableOpacity>
