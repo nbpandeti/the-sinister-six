@@ -66,7 +66,6 @@ function HomeScreen({ navigation }) {
                 activeOpacity={0.5}
                 onPress={() => navigation.navigate("StellARMenu")}>
                 <Image
-                    testID ="homeScreenLogoButton"
                     source={require('./logofinal.png')}
                     resizeMode='contain'
                     style= {{maxWidth: (width*.65)}}/>
@@ -79,13 +78,15 @@ function HomeScreen({ navigation }) {
 function StellARMenuPage({ navigation }) {
     return (
             <View style={{justifyContent: "center", alignItems: "center" }}>
-                <Image testID ="stellarMenuPageGasGiantImage" source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld')}>
+                <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
+                    <TouchableOpacity testID ="stellarMenuPageButtonToARWorld" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld')}>
                         <Image
+                        testID = "stellarMenuPageGasGiantImage"
                         source={require('./gasgiant.png')}
                         style={styles.ImageIconStyle}
                         />
                         <Image
+                        testID = "stellarMenuPageGiantText"
                         source={require('./gianttext.png')}
                         resizeMode='contain'
                         style= {{maxWidth: (width*.65), maxHeight: (height*.15),  position: 'absolute', top:500, right:100}}
@@ -99,14 +100,14 @@ function ARWorldScreen({ navigation }) {
     return (
         <View >
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('AR')}>
+                    <TouchableOpacity testID ="ARWorldScreenButton" activeOpacity={0.5} onPress={() => navigation.navigate('AR')}>
                     <Image
-                        testID ="homeScreenLogoButton"
+                        testID ="ARWorldScreenImage"
                         source={require('./space1.jpg')}
                         style={{height: '90%',
                         width: 500, top:125}}
                         />
-                    <Text testID ="homeScreenLogoButton" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
+                    <Text testID ="ARWorldScreenText" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
                     </TouchableOpacity>
     
                 </View>
@@ -116,9 +117,9 @@ function AR({ navigation }) {
     return (
             <View style={{justifyContent: "center", alignItems: "center" }}>
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld2')}>
+                    <TouchableOpacity testID ="ARButtonToARWorld2" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld2')}>
                         <Image
-                        testID ="homeScreenLogoButton"
+                        testID ="ARNeworldImage"
                         source={require('./neworld.png')}
                         style={styles.ImageIconStyle}
                         />
@@ -133,14 +134,14 @@ function ARWorldScreen2({ navigation }) {
     return (
         <View >
                 <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="homeScreenLogoButton" activeOpacity={0.5} onPress={() => navigation.navigate('ContactUs')}>
+                    <TouchableOpacity testID ="ARWorldScreen2ButtonToContactUs" activeOpacity={0.5} onPress={() => navigation.navigate('ContactUs')}>
                     <Image
-                        testID ="homeScreenLogoButton"
+                        testID ="ARWorldScreen2Image"
                         source={require('./space1.jpg')}
                         style={{height: '90%',
                         width: 500, top:125}}
                         />
-                    <Text testID ="homeScreenLogoButton" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
+                    <Text testID ="ARWorldScreen2Text" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
                     </TouchableOpacity>
     
                 </View>
@@ -150,9 +151,9 @@ function ARWorldScreen2({ navigation }) {
 function ContactUsScreen({ navigation }) {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Contact Us </Text>
+            <Text testID ="ContactUsScreenTitle">Contact Us </Text>
             <Button title="Go back" onPress={() => navigation.goBack()} />
-            <Button title="FAQs" onPress={() => navigation.navigate('FAQs')} />
+            <Button testID="ContactUsButtonToFAQ" title="FAQs" onPress={() => navigation.navigate('FAQs')} />
         </View>
     );
 }
@@ -160,7 +161,7 @@ function ContactUsScreen({ navigation }) {
 function FAQScreen({ navigation }) {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>FAQs Page</Text>
+            <Text testID ="FAQScreenTitle">FAQs Page</Text>
             <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
             <Button title="Go back" onPress={() => navigation.goBack()} />
         </View>
