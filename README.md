@@ -121,6 +121,29 @@ We did a lot of Mob progrmam as shown in the below screenshots
 ![Sprint1MobProgramming4Filter](Sprint1MobProgramming4Filter.png)
 ![Sprint1MobProgramming4Filter2](Sprint1MobProgramming4Filter2.png)
 
+## 10 TDD Tests
+We were able to use 10 TDD react-native tests to help us figure out the app navigation
+These are the 3 commits that encompase the testing code
+https://github.com/nbpandeti/the-sinister-six/commit/b3482b1b96ced70cf280ba36035cd37f7ec21815
+
+https://github.com/nbpandeti/the-sinister-six/commit/79ab0e001e82f3681b6098cb4e05ffd0ce0aa227
+
+https://github.com/nbpandeti/the-sinister-six/commit/6ee80b4aa4a3d6bd7e10641bcb2302d4debbc27a
+
+
+## StakeHolder Review
+We had a Stakeholder review with our Stakeholder Jamarius. And we were able to demo our deliverables and get his feedback.
+![Stakeholder Review1](Sprint1MobProgramming4Filter.png)
+![Sprint1MobProgramming4Filter2](Sprint1MobProgramming4Filter2.png)
+
+Based on his feedback, we had 2 new user stories that we will add to the top of our backlog for Sprint 2
+![Stakeholder Feedback](Sprint1StakeholderFeedback.png)
+
+## Sprint 1 Review/Retro
+We had a team Review and Retro after our Stakeholder review.
+We went over what we got done, what we didn't do. We evaluated our Sprint. We went over what went well and what didn't go well. And also made a plan for what to do for next sprint.
+![Sprint1 Review/Retro](Sprint1SprintReviewRetro.png)
+
 
 ## Artemis AR Filter for Social Media: 
 [Link to Live Filter](https://www.instagram.com/ar/796068967599219/?ch=NTZlZDc1ZDMyMjJiOGY1NWFjZDA5NjIxNmJmZjBkZjg%3D)
