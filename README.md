@@ -101,6 +101,25 @@ Personality traits | Resourceful, Creative, Empathetic, Impulsive, Playful
 ## Story Point Estimating session
 6/30/2020 - Everyone was involved. Lily presented the story in planningpoker.com and everyone in the dev team votes and came to a consensus on the story points for each story. 
 ![Story Pointing session](PlanningPokerSession.png)
+We made a Sprint Goal, and decided that we work work on Backlog Items 1-3. So therefore we were able to forcast that we could do 11 Story Points for Sprint 1.
+![Sprint Planning Session](Sprint1GoalForcast.png)
+
+## Backlog Item Breakdown, Google Spreadsheet kanban board, & Sprint Burndown Chart
+During our Sprint Planning, we were able to breakdown our 3 backlog item into 19 tasks. We assigned to a single team member or to multiple members for mob or pair programming sessions. And we also had a column in our Google Spreadsheet to document the Status of each Individual Tasks and we changed the status from In Progress to Done as we started working on the tasks and completed tasks. This is what we used as our Kanban Board
+![Sprint Kanban](Sprint1BacklogTaskBreakdownNKanban.png)
+We also had the below burndown chart in Spreadsheets to track how many story points we finished in each day of the Sprint.
+![Sprint Burndown](Sprint1Burndown.png)
+
+## Daily Scrum
+Each day during our sessions we conducted by the Scrum Master. During these scrums, we asked these questions: What did we do in the last 24 hours? What did we do we plan to do in the next 24 hours? Did we have any impediments?And how do we plan on resolving them?
+![Scrum1](Sprint1ScrumLast24hrs.png)
+![Scrum2](Sprint1ScrumNext24hrs.png)
+![Scrum3](Sprint1ScrumImpediments.png)
+
+## Team Work during Sprint 1
+We did a lot of Mob progrmam as shown in the below screenshots
+![Sprint1MobProgramming4Filter](Sprint1MobProgramming4Filter.png)
+![Sprint1MobProgramming4Filter2](Sprint1MobProgramming4Filter2.png)
 
 
 ## Artemis AR Filter for Social Media: 
