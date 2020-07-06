@@ -133,8 +133,8 @@ https://github.com/nbpandeti/the-sinister-six/commit/6ee80b4aa4a3d6bd7e10641bcb2
 
 ## StakeHolder Review
 We had a Stakeholder review with our Stakeholder Jamarius. And we were able to demo our deliverables and get his feedback.
-![Stakeholder Review1](Sprint1MobProgramming4Filter.png)
-![Sprint1MobProgramming4Filter2](Sprint1MobProgramming4Filter2.png)
+![Stakeholder Review1](Sprint1StakeHolderReview.png)
+![Stakeholder Review2](Sprint1StakeHolderReview2.png)
 
 Based on his feedback, we had 2 new user stories that we will add to the top of our backlog for Sprint 2
 ![Stakeholder Feedback](Sprint1StakeholderFeedback.png)
