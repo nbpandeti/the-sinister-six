@@ -102,3 +102,11 @@ Personality traits | Resourceful, Creative, Empathetic, Impulsive, Playful
 ## Story Point Estimating session
 6/30/2020 - Everyone was involved. Lily presented the story in planningpoker.com and everyone in the dev team votes and came to a consensus on the story points for each story. 
 ![Story Pointing session](PlanningPokerSession.png)
+
+
+## Artemis AR Filter for Social Media: 
+[Link to Live Filter](https://www.instagram.com/ar/796068967599219/?ch=NTZlZDc1ZDMyMjJiOGY1NWFjZDA5NjIxNmJmZjBkZjg%3D)
+
+![Artemis AR Filter](Artemis.gif)
+
+
