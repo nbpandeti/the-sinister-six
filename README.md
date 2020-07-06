@@ -147,7 +147,6 @@ We went over what we got done, what we didn't do. We evaluated our Sprint. We we
 
 ## Artemis AR Filter for Social Media: 
 [Link to Live Filter](https://www.instagram.com/ar/796068967599219/?ch=NTZlZDc1ZDMyMjJiOGY1NWFjZDA5NjIxNmJmZjBkZjg%3D)
+*Blink to explore NASA's Artemis Mission!*
 
 ![Artemis AR Filter](Artemis.gif)
-
-
