@@ -130,6 +130,8 @@ https://github.com/nbpandeti/the-sinister-six/commit/79ab0e001e82f3681b6098cb4e0
 
 https://github.com/nbpandeti/the-sinister-six/commit/6ee80b4aa4a3d6bd7e10641bcb2302d4debbc27a
 
+And they all PASS!!
+![Sprint1TDDTestsPass](Sprint1TDDPassed.png)
 
 ## StakeHolder Review
 We had a Stakeholder review with our Stakeholder Jamarius. And we were able to demo our deliverables and get his feedback.
