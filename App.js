@@ -1,171 +1,30 @@
-import React, { Component } from 'react';
-import { Button, StyleSheet, Text, View, Image, TouchableOpacity, Dimensions } from 'react-native';
+import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+ 
+import Splash from './components/Splash.js';
+import Home from './components/Home.js';
+import ARWorld1 from './components/ARWorld1.js';
+import ARWorld2 from './components/ARWorld2.js';
+import ARWorld3 from './components/ARWorld3.js';
+import Contact from './components/Contact.js';
+import FAQ from './components/FAQ.js';
 
-
-const styles = StyleSheet.create({
-    titlepage: {
-        color: 'white',
-        fontWeight: 'bold',
-        fontSize: 45,
-    },
-    red: {
-        color: 'red',
-    },
-    backgroundImage:{
-        position: 'absolute',
-        resizeMode:'stretch'
-    },
-    ImageIconStyle: {
-        margin: 5,
-        left:35 ,
-        height: '100%',
-        width: 500,
-        bottom:170,
-        justifyContent: 'center',
-    alignItems: 'center',
-          resizeMode: 'stretch'
-    },
-    AppIconStyle: {
-            padding: 10,
-            margin: 5,
-            height: 500,
-            width: 1000,
-            resizeMode: 'stretch',
-            flexDirection: 'row'
-        }
-});
-
-function App() {
+const Tab = createBottomTabNavigator();
+  
+export default function App()
+{
     return (
-        <NavigationContainer>
-            <Stack.Navigator screenOptions={{gestureEnabled:true, gestureDirection:"horizontal"}} headerMode="none" animation="fade" initialRouteName="Home">
-                <Stack.Screen name="Home" component={HomeScreen}/>
-                <Stack.Screen name="StellARMenu" component={StellARMenuPage} />
-                <Stack.Screen name="ARWorld" component={ARWorldScreen} />
-                <Stack.Screen name="AR" component={AR} />
-                <Stack.Screen name="ARWorld2" component={ARWorldScreen2} />
-                <Stack.Screen name="ContactUs" component={ContactUsScreen} />
-                <Stack.Screen name="FAQs" component={FAQScreen} />
-            </Stack.Navigator>
-        </NavigationContainer>
+      <NavigationContainer>
+        <Tab.Navigator barStyle="none">
+            <Tab.Screen name="Splash" component={Splash} />
+            <Tab.Screen name="Home" component={Home} />
+            <Tab.Screen name="ARWorld1" component={ARWorld1} />
+            <Tab.Screen name="ARWorld2" component={ARWorld2} />
+            <Tab.Screen name="ARWorld3" component={ARWorld3} />
+            <Tab.Screen name="Contact" component={Contact} />
+            <Tab.Screen name="FAQ" component={FAQ} />
+        </Tab.Navigator>
+      </NavigationContainer>
     );
 }
-
-const Stack = createStackNavigator();
-const{width,height}= Dimensions.get("window")
-
-function HomeScreen({ navigation }) {
-    return (
-        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-            <Image style= { styles.backgroundImage }/>
-            <View>
-            <TouchableOpacity
-                testID ="homeScreenLogoButton"
-                activeOpacity={0.5}
-                onPress={() => navigation.navigate("StellARMenu")}>
-                <Image
-                    source={require('./logofinal.png')}
-                    resizeMode='contain'
-                    style= {{maxWidth: (width*.65)}}/>
-            </TouchableOpacity>
-            </View>
-        </View>
-    );
-}
-
-function StellARMenuPage({ navigation }) {
-    return (
-            <View style={{justifyContent: "center", alignItems: "center" }}>
-                <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="stellarMenuPageButtonToARWorld" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld')}>
-                        <Image
-                        testID = "stellarMenuPageGasGiantImage"
-                        source={require('./gasgiant.png')}
-                        style={styles.ImageIconStyle}
-                        />
-                        <Image
-                        testID = "stellarMenuPageGiantText"
-                        source={require('./gianttext.png')}
-                        resizeMode='contain'
-                        style= {{maxWidth: (width*.65), maxHeight: (height*.15),  position: 'absolute', top:500, right:100}}
-                        />
-                    </TouchableOpacity>
-    
-                </View>
-        );
-}
-function ARWorldScreen({ navigation }) {
-    return (
-        <View >
-                <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="ARWorldScreenButton" activeOpacity={0.5} onPress={() => navigation.navigate('AR')}>
-                    <Image
-                        testID ="ARWorldScreenImage"
-                        source={require('./space1.jpg')}
-                        style={{height: '90%',
-                        width: 500, top:125}}
-                        />
-                    <Text testID ="ARWorldScreenText" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
-                    </TouchableOpacity>
-    
-                </View>
-    );
-}
-function AR({ navigation }) {
-    return (
-            <View style={{justifyContent: "center", alignItems: "center" }}>
-                <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="ARButtonToARWorld2" activeOpacity={0.5} onPress={() => navigation.navigate('ARWorld2')}>
-                        <Image
-                        testID ="ARNeworldImage"
-                        source={require('./neworld.png')}
-                        style={styles.ImageIconStyle}
-                        />
-                       
-                    </TouchableOpacity>
-    
-                </View>
-        );
-}
-
-function ARWorldScreen2({ navigation }) {
-    return (
-        <View >
-                <Image source={require('./space.jpg')} style= {{position: 'absolute', resizeMode:'stretch', minHeight:height}}/>
-                    <TouchableOpacity testID ="ARWorldScreen2ButtonToContactUs" activeOpacity={0.5} onPress={() => navigation.navigate('ContactUs')}>
-                    <Image
-                        testID ="ARWorldScreen2Image"
-                        source={require('./space1.jpg')}
-                        style={{height: '90%',
-                        width: 500, top:125}}
-                        />
-                    <Text testID ="ARWorldScreen2Text" style= {StyleSheet.titlepage}>A star... lol get it? </Text>
-                    </TouchableOpacity>
-    
-                </View>
-    );
-}
-
-function ContactUsScreen({ navigation }) {
-    return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text testID ="ContactUsScreenTitle">Contact Us </Text>
-            <Button title="Go back" onPress={() => navigation.goBack()} />
-            <Button testID="ContactUsButtonToFAQ" title="FAQs" onPress={() => navigation.navigate('FAQs')} />
-        </View>
-    );
-}
-
-function FAQScreen({ navigation }) {
-    return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text testID ="FAQScreenTitle">FAQs Page</Text>
-            <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
-            <Button title="Go back" onPress={() => navigation.goBack()} />
-        </View>
-    );
-}
-
-export default App;
