@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         color: 'red',
     },
     backgroundImage:{
-        position: 'absolute', 
+        flex:1,
         resizeMode:'stretch', 
         minHeight:height
     },
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         margin: 5,
         left:35 ,
         height: '100%',
-        width: 500,
+        width: 200,
         bottom:170,
         justifyContent: 'center',
     alignItems: 'center',
