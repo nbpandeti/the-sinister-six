@@ -3,10 +3,10 @@ import React from 'react';
 import {render, fireEvent} from 'react-native-testing-library';
 
 describe('ARWorld2', () => {
-  describe('check if ARWorld2 text exists', () => {
-    it('checks to see if ARWorld2 text exist', () => {
+  describe('check if ARWorld2 Button exists', () => {
+    it('checks to see if ARWorld2 Button exist', () => {
       const {getByTestId} = render(<ARWorld2 />);
-      expect(getByTestId('ARWorld2Text')).toBeTruthy();
+      expect(getByTestId('ARWorld2ButtontoARWorld3')).toBeTruthy();
 
     });
   });

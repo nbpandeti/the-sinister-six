@@ -8,9 +8,9 @@ export default class ARWorld1 extends Component {
         return (
             <View >
                 <Image source={require('./images/space.jpg')} style={styles.backgroundImage} />
-                <TouchableOpacity testID="ARWorldScreenButton" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('ARWorld2')}>
+                <TouchableOpacity testID="ARWorld1ButtontoARWorld2" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('ARWorld2')}>
                     <Image
-                        testID="ARWorldScreenImage"
+                        testID="ARWorld1ScreenImage"
                         source={require('./images/space1.jpg')}
                         style={{
                             height: '90%',

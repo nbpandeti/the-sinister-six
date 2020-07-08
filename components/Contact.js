@@ -8,7 +8,7 @@ export default class Contact extends Component {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Text testID ="ContactUsScreenTitle">Contact Us </Text>
-            <Button title="Go back" onPress={() => navigation.goBack()} />
+            <Button testID="ContactUsScreenBackButton" title="Go back" onPress={() => navigation.goBack()} />
             <Button testID="ContactUsButtonToFAQ" title="FAQs" onPress={() => this.props.navigation.navigate('FAQ')} />
         </View>
     )

@@ -8,16 +8,16 @@ export default class ARWorld3 extends Component {
         return (
             <View >
                 <Image source={require('./images/space.jpg')} style={styles.backgroundImage} />
-                <TouchableOpacity testID="ARWorldScreenButton3" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Contact')}>
+                <TouchableOpacity testID="ARWorld3ButtonToContactUs" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Contact')}>
                     <Image
-                        testID="ARWorldScreenImage3"
+                        testID="ARWorld3Image"
                         source={require('./images/space1.jpg')}
                         style={{
                             height: '90%',
                             width: 500, top: 125
                         }}
                     />
-                    <Text testID="ARWorldScreenText" style={styles.titlepage}>A star... lol get it? </Text>
+                    <Text testID="ARWorld3Text" style={styles.titlepage}>A star... lol get it? </Text>
                 </TouchableOpacity>
             </View>
         )

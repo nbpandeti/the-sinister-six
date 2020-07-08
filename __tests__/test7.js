@@ -1,18 +1,13 @@
+import ARWorld1 from '../components/ARWorld1.js';
 import React from 'react';
 import {render, fireEvent} from 'react-native-testing-library';
-import App from '../App.js';
 
-describe('App', () => {
-    describe('check to see if logo button is clicked', () => {
-      it('check to see if logo button is clicked', () => {
-        const {getByTestId} = render(<App />);
-        fireEvent.press(getByTestId('homeScreenLogoButton'));
-        fireEvent.press(getByTestId('stellarMenuPageButtonToARWorld'));
-        fireEvent.press(getByTestId('ARWorldScreenButton'));
-        fireEvent.press(getByTestId('ARButtonToARWorld2'));
-        expect(getByTestId('ARWorldScreen2Image')).toBeTruthy();
+describe('ARWorld1', () => {
+  describe('check if ARWorld1 text exists', () => {
+    it('checks to see if ARWorld1 text exist', () => {
+      const {getByTestId} = render(<ARWorld1 />);
+      expect(getByTestId('ARWorldScreenText')).toBeTruthy();
 
-
-      });
     });
   });
+});

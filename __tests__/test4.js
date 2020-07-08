@@ -1,16 +1,17 @@
+import HomePage from '../components/Home.js';
 import React from 'react';
 import {render, fireEvent} from 'react-native-testing-library';
-import App from '../App.js';
 
-describe('App', () => {
-    describe('check to see if logo button is clicked', () => {
-      it('check to see if logo button is clicked', () => {
-        const {getByTestId} = render(<App />);
-        fireEvent.press(getByTestId('homeScreenLogoButton'));
-        fireEvent.press(getByTestId('stellarMenuPageButtonToARWorld'));
-        expect(getByTestId('ARWorldScreenImage')).toBeTruthy();
-        
-  
-      });
+describe('HomePage', () => {
+  describe('check if Home Page gas giant text exists', () => {
+    it('checks to see if Home Page gas giant text exist', () => {
+      const {getByTestId} = render(<HomePage />);
+      expect(getByTestId('HomePageGiantText')).toBeTruthy();
+
     });
   });
+});
+
+
+
+
