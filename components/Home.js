@@ -23,6 +23,8 @@ const styling = StyleSheet.create({
     height: height/4,
   },
   terraPlanetsLabel: {
+      top: height/6.5,
+      left: width/35,
       width: width/5,
       height: height/6,
   },
@@ -31,6 +33,8 @@ const styling = StyleSheet.create({
     height: height/4,
   },
   gasGiantsLabel: {
+      top: height/6,
+      left: width/30,
     width: width/5,
     height: height/13,
   },
@@ -39,6 +43,8 @@ const styling = StyleSheet.create({
     height: height/4,
   },
   asteroidBeltLabel: {
+      top: height/6.5,
+      left: width/45,
     width: width/5,
     height: height/6,
   },
@@ -73,56 +79,54 @@ setTimePassed() {
       return (
         <View>
         <ImageBackground source={require('./images/space.jpg')}  style={{width: width, height: height}}>
+            <View style={{flex: 1, alignItems: "center"}}>
             <TouchableOpacity
-                style={styling.terraPlanets}
                 testID="HomePageButtonToARWorld1"
-                //style={{position:'absolute'}}
                 activeOpacity={0.5}
                 onPress={() => this.props.navigation.navigate('Terrestrial Planets')}>
-                <Image
+                <ImageBackground
                     style={styling.terraPlanets}
                     testID="HomePageImageWorld1"
                     source={require('./images/gasgiant.png')}
-                    //style={styles.ImageIconStyle}
-                />
+                >
                 <Image
                     style={styling.terraPlanetsLabel}
                     source={require('./images/terrestrialLabel.png')}/>
+                </ImageBackground>
             </TouchableOpacity>
 
             <TouchableOpacity
-                //style={{position:'absolute', width: 100, height: 100, top:0}}
-                style={styling.gasGiants}
-                testID="HomePageButtonToARWorld2"
-                activeOpacity={0.5}
-                onPress={() => this.props.navigation.navigate('Gas Giants')}>
-                <Image
-                    style={styling.gasGiants}
-                    testID="HomePageImageWorld2"
-                    source={require('./images/gasgiant.png')}
-                    //style={styles.ImageIconStyle}
-                />
-                <Image
-                    style={styling.gasGiantsLabel}
-                    source={require('./images/gianttext.png')}/>
-            </TouchableOpacity>
+                            testID="HomePageButtonToARWorld2"
+                            activeOpacity={0.5}
+                            onPress={() => this.props.navigation.navigate('Gas Giants')}>
+                            <ImageBackground
+                                style={styling.gasGiants}
+                                testID="HomePageImageWorld2"
+                                source={require('./images/gasgiant.png')}
+                            >
+                            <Image
+                                style={styling.gasGiantsLabel}
+                                source={require('./images/gianttext.png')}/>
+                            </ImageBackground>
+                        </TouchableOpacity>
+
+
 
             <TouchableOpacity
-                //style={{position:'absolute'}}
-                style={styling.asteroidBelt}
                 testID="HomePageButtonToARWorld3"
                 activeOpacity={0.5}
                 onPress={() => this.props.navigation.navigate('Asteroid Belt')}>
-                <Image
+                <ImageBackground
                     style={styling.asteroidBelt}
                     testID="HomePageImageWorld3"
                     source={require('./images/gasgiant.png')}
-                    //style={styles.ImageIconStyle}
-                />
+                >
                 <Image
                     style={styling.asteroidBeltLabel}
                     source={require('./images/asteroidLabel.png')}/>
+                </ImageBackground>
             </TouchableOpacity>
+            </View>
         </ImageBackground>
 
         </View>
