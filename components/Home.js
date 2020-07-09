@@ -68,16 +68,10 @@ setTimePassed() {
     this.setState({timePassed: true});
 }
   render() {
-    if (!this.state.timePassed) {
+    //if (!this.state.timePassed) {
       return(
-        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Splash/>
-    </View>
-        );
-    }
-    else{ 
-      return (
         <View>
+        <Splash visible=""/>
         <ImageBackground source={require('./images/space.jpg')}  style={{width: width, height: height}}>
             <View style={{flex: 1, alignItems: "center"}}>
             <TouchableOpacity
@@ -130,7 +124,7 @@ setTimePassed() {
         </ImageBackground>
 
         </View>
-    );}
+    );
   }
 }
 
