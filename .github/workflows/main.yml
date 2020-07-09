@@ -29,7 +29,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: install yarn
       run: |
-        npm install -g yarn
         yarn install
         
     - name: run tests
