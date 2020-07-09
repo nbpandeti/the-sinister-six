@@ -12,10 +12,11 @@ export default class Splash extends Component {
             <Image style= { styles.backgroundImage }/>
             <View>
                 <TouchableOpacity
-                    testID ="homeScreenLogoButton"
+                    testID ="SplashPageLogoButton"
                     activeOpacity={0.5}
                     onPress={() => this.props.navigation.navigate('Home')} >
                     <Image
+                        testID = "SplashLogo"
                         source={require('./images/logofinal.png')}
                         resizeMode='contain'
                         style= {{maxWidth: (width*.65)}}/>

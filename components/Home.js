@@ -43,25 +43,25 @@ setTimePassed() {
       return (
         <View>
         <Image source={require('./images/space.jpg')} style= {styles.backgroundImage}/>
-        <TouchableOpacity style={{position:'absolute'}}testID ="stellarMenuPageButtonToARWorld" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Terrestrial Planets')}>
+        <TouchableOpacity testID="HomePageButtonToARWorld1" style={{position:'absolute'}} activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Terrestrial Planets')}>
             <Image
-            testID = "stellarMenuPageGasGiantImage"
+            testID="HomePageImageWorld1"
             source={require('./images/gasgiant.png')}
             style={styles.ImageIconStyle}
             />
         </TouchableOpacity>
 
-        <TouchableOpacity style={{position:'absolute', width: 100, height: 100, top:0}}testID ="stellarMenuPageButtonToARWorld2" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Gas Giants')}>
+        <TouchableOpacity style={{position:'absolute', width: 100, height: 100, top:0}} testID="HomePageButtonToARWorld2" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Gas Giants')}>
             <Image
-            testID = "stellarMenuPageGasGiantImage2"
+            testID="HomePageImageWorld2"
             source={require('./images/gasgiant.png')}
             style={styles.ImageIconStyle}
             />
         </TouchableOpacity>
 
-        <TouchableOpacity style={{position:'absolute'}}testID ="stellarMenuPageButtonToARWorld3" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Asteroid Belt')}>
+        <TouchableOpacity style={{position:'absolute'}} testID="HomePageButtonToARWorld3" activeOpacity={0.5} onPress={() => this.props.navigation.navigate('Asteroid Belt')}>
             <Image
-            testID = "stellarMenuPageGasGiantImage3"
+            testID="HomePageImageWorld3"
             source={require('./images/gasgiant.png')}
             style={styles.ImageIconStyle}
             />
