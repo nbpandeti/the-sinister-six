@@ -23,5 +23,3 @@ export default class ARWorld3 extends Component {
         )
     }
 }
-  
-  
