@@ -96,7 +96,7 @@ Personality traits | Resourceful, Creative, Empathetic, Impulsive, Playful
 10 | Users can provide feedback to the developers directly | As a student, I want to share feedback so that it improves my experience. | 3 | I a student totally engaged in the interstellar world, I have no outlet in which to share ideas and ways to bring outspace to life.  Allowing me to share this feedback will provide a way for me to collaborate with this tool to improve my experience, and maybe the experience of others. | We agree it will complete when:<br/>1. There is a testimonial section.<br/>2. User can rate the app via the section.<br/>3. User can share opinion about the app via the section.<br/>4. User can receive confirmation notice that the feedback has recorded. | Our stakeholder wants to share his thoughts and be heard when using the app as part of his contributions in the future's development of this interesting tool.
 11 | Users learn about how the app works | As a mom, I want to be able to easily understand how this app works so that I can ensure my child yields the most value. | 2 | AR is forieng to me, but a technology that I want to share with my children.  However, I am scared that it will be over my head.  I want to have a way to best understand how to navigate and draw value from resources within our AR interface so that my children will enjoy it also. | We agree it will complete when:<br/>1. There is a Frequently Asked Question page.<br/>2. The page has all basic instructions for users to navigate in the app.<br/>3. The page has additional suggestions for users to achieve the maximum learning benefits of the app. | As a new user, our stakeholder wants to navigate easily and have questions answered quickly while using the app. 
 
-
+# Sprint1
 
 ## Story Point Estimating session
 6/30/2020 - Everyone was involved. Lily presented the story in planningpoker.com and everyone in the dev team votes and came to a consensus on the story points for each story. 
@@ -145,6 +145,69 @@ Based on his feedback, we had 2 new user stories that we will add to the top of 
 We had a team Review and Retro after our Stakeholder review.
 We went over what we got done, what we didn't do. We evaluated our Sprint. We went over what went well and what didn't go well. And also made a plan for what to do for next sprint.
 ![Sprint1 Review/Retro](Sprint1SprintReviewRetro.png)
+
+
+
+# Sprint2
+
+## Story Point Estimating session
+7/6/2020 - Everyone was involved. Lily presented the story in planningpoker.com and everyone in the dev team votes and came to a consensus on the story points for the 2 newly added userstories based on our stakeholder's input from Sprint 1's demo and review  
+![Sprint 2 Story Pointing session](Sprint2PlanningPoker.png)
+We made a Sprint Goal, and decided that we work work on Backlog Items the new Backlog items 4 & 5 as well as the previous Backlog items 4 & 5, which are now backlog items 6 & 7. So therefore will work on Backlog item 4-7 and we were able to forcast that we could do 27 Story Points for Sprint 2.
+
+After looking at our yesterday's news. We determined that we would be able to work on 27 Story Points because we had already gone through most of our research in Sprint 1, and we determine that we could ramp up our productivity and power through this necessary functionality.
+![Sprint 2 Planning Session](Sprint2GoalForcast.png)
+
+## Backlog Item Breakdown, Google Spreadsheet kanban board, & Sprint Burndown Chart
+During our Sprint Planning, we were able to breakdown our 4 backlog item into 30 tasks. We assigned to a single team member or to multiple members for mob or pair programming sessions. And we also had a column in our Google Spreadsheet to document the Status of each Individual Tasks and we changed the status from In Progress to Done, or Won't Do (if task invalidated) as we started working on the tasks and completed tasks. This is what we used as our __*Kanban Board*__
+![Sprint 2 Kanban](Sprint2BacklogTaskBreakdownNKanban.png)
+We also had the below burndown chart in Spreadsheets to track how many story points we finished in each day of the Sprint.
+![Sprint 2 Burndown](Sprint2Burndown.png)
+
+## Daily Scrum
+Each day during our sessions we conducted by the Scrum Master. During these scrums, we asked these questions: What did we do in the last 24 hours? What did we do we plan to do in the next 24 hours? Did we have any impediments?And how do we plan on resolving them?
+![Sprint2 Scrum1](Sprint2ScrumLast24hrs.png)
+![Sprint2 Scrum2](Sprint2ScrumNext24hrs.png)
+![Sprint2 Scrum3](Sprint2ScrumImpediments.png)
+
+## Team Work during Sprint 2
+We did a lot of Mob progrmam as shown in the below screenshots
+![Sprint2Mobbing](Sprint2MobProgramming.png)
+![Sprint2Mobbing2](Sprin21MobProgramming2.png)
+
+## 10 TDD Tests
+We were able to use 23 react-native tests to help us figure out the app navigation
+Our tests are all contain withing the _test_ directory
+https://github.com/nbpandeti/the-sinister-six/tree/master/__tests__
+
+And they all PASS!!
+![Sprint2TestsPass](Sprint2PassedTests.png)
+
+## CICD
+We set up a CICD pipeline using a service called Buddyworks
+This pipeline is triggered on push of a commit to github. If the pipeline fails, we get a notification in our the-sinister-six slack channel. And we also have a notification for the first successfull pipeline run after a failure
+![Sprint2CICDPipeline](Sprint2CICDPipeline.png)
+![Sprint2CICDResults](Sprint2SlackNotificationofCICDResults.png)
+
+## StakeHolder Review && Sprint 2 Review
+We had a Stakeholder Demo and Sprint 2 Review during class
+![Class Review](Sprint2ReviewInClass)
+We also had a practice session in a meeting prior to class from 1-1:45pm EST. We went over the presentation slide deck created by Lily (our PO). We determined the order and transitions between our speakers, Lily, Reema, and Polina. And we also did a try run presentation to make sure that everything including our demo and Menti feedback from our classmate stakeholders, was done in our time limit.
+Below is the link to the presentation slide deck:
+https://docs.google.com/presentation/d/12WJ46-E-48tMw8wQr1XosflhqhG0FXkR2cv-S8r1DFw/edit#slide=id.g8b3de28238_0_734
+
+
+### Stakeholder feedback
+We had a Menti poll and questions as a way to get stakeholder feedback from our class. And we determined that for our next sprint, our highest priority is User Story #10 which is a daily popup notification with a fact of the day. And as such we would like to prioritize User Stories 10, 8, & 9 for Sprint 3
+
+## Yesterday's News & Future Forcast
+After looking at our yesterday's news, we determined that we need to 2 more sprint to finish our backlog items. We work really well together. We think we can finish our existing user stories and in the future submit this app to the Google Play Store and the Apple Store.
+![Sprint2Future](Sprint2Future.png)
+
+## Sprint 2 Retro
+We had also had Retro.
+We went over what we got done, what we didn't do. We evaluated our Sprint. We went over what went well and what didn't go well
+![Sprint2 Retro](Sprint2Retro.png)
 
 
 ## Artemis AR Filter for Social Media: 
