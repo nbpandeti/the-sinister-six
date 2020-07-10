@@ -151,7 +151,7 @@ We went over what we got done, what we didn't do. We evaluated our Sprint. We we
 # Sprint2
 
 ## Story Point Estimating session
-7/6/2020 - Everyone was involved. Lily presented the story in planningpoker.com and everyone in the dev team votes and came to a consensus on the story points for the 2 newly added userstories based on our stakeholder's input from Sprint 1's demo and review  
+7/6/2020 - Everyone was involved. Lily presented the story in planningpoker.com and everyone in the dev team votes and came to a consensus on the story points for the 2 newly added userstories based on our stakeholder's input from Sprint 1's demo and review. 
 ![Sprint 2 Story Pointing session](Sprint2PlanningPoker.png)
 We made a Sprint Goal, and decided that we work work on Backlog Items the new Backlog items 4 & 5 as well as the previous Backlog items 4 & 5, which are now backlog items 6 & 7. So therefore will work on Backlog item 4-7 and we were able to forcast that we could do 27 Story Points for Sprint 2.
 
@@ -165,7 +165,7 @@ We also had the below burndown chart in Spreadsheets to track how many story poi
 ![Sprint 2 Burndown](Sprint2Burndown.png)
 
 ## Daily Scrum
-Each day during our sessions we conducted by the Scrum Master. During these scrums, we asked these questions: What did we do in the last 24 hours? What did we do we plan to do in the next 24 hours? Did we have any impediments?And how do we plan on resolving them?
+Each day during our sessions we conducted by the Scrum Master. During these scrums, we asked these questions: What did we do in the last 24 hours? What did we do we plan to do in the next 24 hours? Did we have any impediments? And how do we plan on resolving them?
 ![Sprint2 Scrum1](Sprint2ScrumLast24hrs.png)
 ![Sprint2 Scrum2](Sprint2ScrumNext24hrs.png)
 ![Sprint2 Scrum3](Sprint2ScrumImpediments.png)
@@ -184,8 +184,8 @@ And they all PASS!!
 ![Sprint2TestsPass](Sprint2PassedTests.png)
 
 ## CICD
-We set up a CICD pipeline using a service called Buddyworks
-This pipeline is triggered on push of a commit to github. If the pipeline fails, we get a notification in our the-sinister-six slack channel. And we also have a notification for the first successfull pipeline run after a failure
+We set up a CICD pipeline using a service called Buddyworks.
+This pipeline is triggered on push of a commit to github. If the pipeline fails, we get a notification in our the-sinister-six slack channel. And we also have a notification for the first successfull pipeline run after a failure.
 ![Sprint2CICDPipeline](Sprint2CICDPipeline.png)
 ![Sprint2CICDResults](Sprint2SlackNotificationofCICDResults.png)
 
@@ -227,4 +227,4 @@ We went over what we got done, what we didn't do. We evaluated our Sprint. We we
 ![Home Page](AppHomePage.png)
 ![ARWorld1](AR1.gif)
 ![ARWorld2](AR2.gif)
-![ARWorld3](AR2.gif)
+![ARWorld3](AR3.gif)
