@@ -189,7 +189,7 @@ This pipeline is triggered on push of a commit to github. If the pipeline fails,
 ![Sprint2CICDPipeline](Sprint2CICDPipeline.png)
 ![Sprint2CICDResults](Sprint2SlackNotificationofCICDResults.png)
 
-## StakeHolder Review && Sprint 2 Review
+## StakeHolder Review & Sprint 2 Review
 We had a Stakeholder Demo and Sprint 2 Review during class
 ![ClassReview](Sprint2ReviewInClass.png)
 We also had a practice session in a meeting prior to class from 1-1:45pm EST. We went over the presentation slide deck created by Lily (our PO). We determined the order and transitions between our speakers, Lily, Reema, and Polina. And we also did a try run presentation to make sure that everything including our demo and Menti feedback from our classmate stakeholders, was done in our time limit.
