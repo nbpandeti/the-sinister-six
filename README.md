@@ -217,11 +217,14 @@ We went over what we got done, what we didn't do. We evaluated our Sprint. We we
 ![Artemis AR Filter](Artemis.gif)
 
 ## Planets AR Filter (Which Planel Are you?) for Social media:
-![Which Planet Are You?](Lily'sFilter.gif)
+[Link to Live Filter 2](https://www.instagram.com/ar/2936427273146098/?ch=NDI0NmYzMTk3MzIzZjM5MjM4YjM5Njc4MDk5N2IzMjU%3D)
+*Pause to Find out Which Planet You Are*
+
+![Which Planet Are You?](filter2.gif)
 
 ## AR App
 ![Splash Page](AppSplashPage.jpg)
 ![Home Page](AppHomePage.png)
-![ARWorld1](ARWorld1Demo.gif)
-![ARWorld2](ARWorld2Demo.gif)
-![ARWorld3](ARWorld3Demo.gif)
+![ARWorld1](AR1.gif)
+![ARWorld2](AR2.gif)
+![ARWorld3](AR2.gif)
