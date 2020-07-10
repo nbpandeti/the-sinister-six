@@ -173,7 +173,7 @@ Each day during our sessions we conducted by the Scrum Master. During these scru
 ## Team Work during Sprint 2
 We did a lot of Mob progrmam as shown in the below screenshots
 ![Sprint2Mobbing](Sprint2MobProgramming.png)
-![Sprint2Mobbing2](Sprin21MobProgramming2.png)
+![Sprint2Mobbing2](Sprint2MobProgramming2.png)
 
 ## 10 TDD Tests
 We were able to use 23 react-native tests to help us figure out the app navigation
@@ -191,7 +191,7 @@ This pipeline is triggered on push of a commit to github. If the pipeline fails,
 
 ## StakeHolder Review && Sprint 2 Review
 We had a Stakeholder Demo and Sprint 2 Review during class
-![Class Review](Sprint2ReviewInClass)
+![ClassReview](Sprint2ReviewInClass.png)
 We also had a practice session in a meeting prior to class from 1-1:45pm EST. We went over the presentation slide deck created by Lily (our PO). We determined the order and transitions between our speakers, Lily, Reema, and Polina. And we also did a try run presentation to make sure that everything including our demo and Menti feedback from our classmate stakeholders, was done in our time limit.
 Below is the link to the presentation slide deck:
 https://docs.google.com/presentation/d/12WJ46-E-48tMw8wQr1XosflhqhG0FXkR2cv-S8r1DFw/edit#slide=id.g8b3de28238_0_734
@@ -215,3 +215,13 @@ We went over what we got done, what we didn't do. We evaluated our Sprint. We we
 *Blink to explore NASA's Artemis Mission!*
 
 ![Artemis AR Filter](Artemis.gif)
+
+## Planets AR Filter (Which Planel Are you?) for Social media:
+![Which Planet Are You?](Lily'sFilter.gif)
+
+## AR App
+![Splash Page](AppSplashPage.jpg)
+![Home Page](AppHomePage.png)
+![ARWorld1](ARWorld1Demo.gif)
+![ARWorld2](ARWorld2Demo.gif)
+![ARWorld3](ARWorld3Demo.gif)
